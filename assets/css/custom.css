@@ -210,7 +210,7 @@ a{
     border-radius: 25px !important;
     color: #fff;
     font-size: 14px;
-    font-family: openSans-medium;
+    font-family: 'Open Sans', sans-serif;
     padding: 10px 26px;
     transition: all 0.3s;
 }
@@ -231,7 +231,7 @@ a{
     border-radius: 25px !important;
     color: #1098f7 ;
     font-size: 13px;
-    font-family: openSans-medium;
+    font-family: 'Open Sans', sans-serif;
     padding: 10px 30px;
     transition: all 0.3s;
 }
@@ -271,6 +271,10 @@ a{
     padding-top: 7px;
     padding-bottom: 7px;
 }
+.navbar-brand img{
+    width: 120px;
+    margin-top: 4px;
+}
 .navbar-default .nav-style{
     background: #fff;
     border-radius: 6px;
@@ -283,7 +287,8 @@ a{
 .navbar-default .navbar-nav > li > a{
     padding: 10px 15px;
     color: #777;
-    font-family: openSans-medium;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
     border-radius: 3px;
 }
