@@ -205,17 +205,17 @@ a{
 /*BUTTONS-ARE-HERE*/
 
 .purple-button{
-    background: #1098f7 ;
+    background: #fff ;
     border: 1px solid transparent;
     border-radius: 25px !important;
-    color: #fff;
+    color: #1098f7;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     padding: 10px 26px;
     transition: all 0.3s;
 }
 .purple-button:hover{
-    color: #fff;
+    color: #1098f7;
     box-shadow: 0 7px 15px rgba(16, 152, 247,0.4);
     transition: all 0.3s;
 }
