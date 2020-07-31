@@ -355,6 +355,7 @@ a{
     background: url('../images/trans-iphone.png');
     background-size: 100%;
     padding: 94px 20px;
+    background-repeat: no-repeat
 }
 /*header-iphone-slider*/
 
