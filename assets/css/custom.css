@@ -576,13 +576,13 @@ a{
     transition: 0.3s;
 }
 .mobile-overlay .phone-image{
-    max-width: 310px;
+    max-width: 320px;
 }
 .mobile-screens{
-    padding: 120px 0;
+    padding: 22px 0;
 }
 .mobile-screens .item img{
-    max-width: 200px;
+    max-width: 260px;
     margin: 0 auto;
 }
 .mobile-screens .owl-nav{
