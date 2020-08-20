@@ -32,14 +32,18 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/css/team.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172166863-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172166863-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-172166863-1');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-172166863-1');
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
 
 </head>
 
@@ -95,8 +99,10 @@
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="row">
                                 <div class="col-md-6 col-sm-6 col-xs-12 header-text sectionP100 animated fadeleft">
-                                    <h2 class="rM white" style="font-size: 42px;letter-spacing: 1px;">The Photo App<br>It's Time to Look Beautiful</h2>
-                                    <p class="oR white f17">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <h2 class="rM white" style="font-size: 42px;letter-spacing: 1px;">Taking off ? <br>
+                                        <h3 id="headingLine" style="color: white;margin: 10px 0px"></h3>
+                                    </h2>
+                                    <p class="oR white f17">Then you're at the right place... Find great places to meet or stop halfway between two or more locations using Halfways.com.</p>
                                     <button class="btn purple-button" style="margin-top: 30px;">DOWNLOAD APP</button>
                                 </div>
 
@@ -454,7 +460,7 @@
                         <div class="item">
                             <img src="assets/images/screenshots/5.png" alt="" class="img-responsive centered">
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -683,11 +689,11 @@
 
     <!--Youtube-Video-Popups-->
     <script type="text/javascript" src="assets/plugins/videoPopup/videoPopup.jquery.js"></script>
-
-    <!--Map-Google-jQuery-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOBOHzunjl80FdrKjMp929Ly53WLM776g"></script>
     <!--Map-Javascript-->
     <script type="text/javascript" src="assets/plugins/map/map.js"></script>
+    <!--Map-Google-jQuery-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-Jh6qIJOM4I1RLHUs0Z55M_6ec_abCCo"></script>
+
 
 
 
@@ -695,4 +701,35 @@
     <script type="text/javascript" src="assets/js/common.js"></script>
 
     <!--Javascript-Files-->
-</body></html>
+</body>
+<script>
+    new TypeIt("#headingLine", {
+            speed: 100,
+            waitUntilVisible: true
+        })
+        .type("Want to find ?")
+        .pause(500)
+        .move(-2)
+        .type(' Something in Way ')
+        .pause(1000)
+        .move(-8)
+        .delete(9)
+        .type('Hotels ')
+        .pause(700)
+        .delete(7)
+        .type('Restaurants')
+        .pause(700)
+        .delete(11)
+        .type('Movie Theaters')
+        .pause(700)
+        .delete(14)
+        .type('Gas Stations')
+        .pause(700)
+        .delete(12)
+        .type('Bars')
+        .pause(700)
+        .delete(4)
+        .type('Anything ')
+        .move("END")
+        .go();
+</script></html>
